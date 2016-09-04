@@ -23,4 +23,5 @@
 	curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
 	$result = curl_exec($ch);
 	echo $result;
+	
 ?>
